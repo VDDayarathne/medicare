@@ -14,13 +14,16 @@ export const {
 const client = new sdk.Client();
 
 client
-.setEndpoint('https://fra.cloud.appwrite.io/v1')
+.setEndpoint(ENDPOINT!)
 .setProject(PROJECT_ID!)
 .setKey(API_KEY!);
 
 export const databases = new sdk.Databases(client);
 export const users = new sdk.Users(client);
+
 export const storage = new sdk.Storage(client);
+
+
 
 
 
