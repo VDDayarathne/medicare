@@ -24,8 +24,6 @@ export enum FormFieldType{
     SELECT = 'select',
     SKELETON = 'skeleton',
 }
-// import { useRouter } from "next/navigation"
-
 
  
 const PatientForm=()=> {
